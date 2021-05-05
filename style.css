@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul {
+  width: 80%;
+  display: flex;
+  margin: auto; /* centers this widget with 80% width in the middle */
+  justify-content: space-around;
+  align-items: center; /* centers children vertically */
+  min-height: 10vh;
+  padding: 1rem;
+}
+
+.hero {
+  min-height: 90vh;
+  background-image: url("/img/Cytorl_xl19lv.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.hero button {
+  padding: 1rem 2rem;
+  background: rgb(202, 249, 255);
+  border: none;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+
+.intro img {
+  width: 100%; /* 100% so it takes up width of the parent div */
+}
+
+.intro-image {
+  flex: 1 1 20rem;
+  background: lightskyblue;
+}
+
+.intro-text {
+  flex: 1 1 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-text h2 {
+  padding: 2rem;
+}
+
+.intro-text p {
+  padding: 1rem;
+}
